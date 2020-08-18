@@ -62,6 +62,7 @@ class _SignInState extends State<SignIn> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        resizeToAvoidBottomInset: false,
       appBar: appBarMain(context),
       body: isLoading
           ? Container(
